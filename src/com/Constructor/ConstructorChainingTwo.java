@@ -15,6 +15,6 @@ class ConstructorDemo{
 }
 public class ConstructorChainingTwo {
     public static void main(String[] args) {
-        ConstructorDemo obj=new ConstructorDemo(10,20,30);
+        ConstructorDemo obj=new ConstructorDemo(10);
     }
 }
