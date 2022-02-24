@@ -1,4 +1,4 @@
-package com.Inheritance;
+package com.Interface;
 
 class Phone{
     void call(){
@@ -37,7 +37,7 @@ class SmartPhone extends Phone implements Camera,Player{
         System.out.println("pause music is allowed");
     }
 }
-public class Interface {
+public class InterfaceOne {
     public static void main(String[] args) {
         SmartPhone smartPhone= new SmartPhone();
         smartPhone.pause();
