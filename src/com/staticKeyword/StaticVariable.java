@@ -1,18 +1,17 @@
 package com.staticKeyword;
 
-public class Static {
+public class StaticVariable {
     static int count=0;
-    public Static(){
+    public StaticVariable(){
         count+=5;
-        display();
     }
     void display(){
         System.out.println(count);
     }
     public static void main(String[] args) {
         System.out.println("Start of main method");
-        Static staticDemo = new Static();
-        Static staticDemo1 = new Static();
-        Static staticDemo2 = new Static();
+        StaticVariable staticDemo = new StaticVariable();
+        StaticVariable staticDemo1 = new StaticVariable();
+        StaticVariable staticDemo2 = new StaticVariable();
     }
 }
