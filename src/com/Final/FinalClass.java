@@ -1,16 +1,15 @@
 package com.Final;
 
-
-final class ParentClass{
-    void methodOne(){
-        System.out.println("It is method one");
+final class First{
+    final int age=10;
+    String name="Sriram";
+    public void method(){
+        System.out.println("This message from first class in at method");
     }
 }
-//class ChildClass extends ParentClass{
-//
-//}
 public class FinalClass {
     public static void main(String[] args) {
-
+        First first = new First();
+        first.method();
     }
 }
